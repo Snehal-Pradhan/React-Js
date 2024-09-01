@@ -1,7 +1,14 @@
+import Somu from "./hello"
+
+
 function App() {
   return (
-    <h2>hello react + vite</h2>
-  )
+    
+    <>
+    <Somu/>
+    <h2>hello</h2>
+    </>
+    )
 }
 
 export default App
