@@ -4,6 +4,14 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <MyApp />
   </StrictMode>,
 )
+
+function MyApp(){
+  return(
+    <div>
+      <h1>Custom App! || somu</h1>
+    </div>
+  )
+}
