@@ -1,14 +1,18 @@
+
 import Dynamic from "./components/Dynamic";
-import Footer from "./components/Footer";
-import Greet from "./components/Greet";
-import Header from "./components/Header";
-import JSXRules from "./components/JSXRules";
-import MainContent from "./components/MainContent";
-import WelcomeMessage from "./components/WelcomeMessage";
+import Greeting from "./components/Greeting";
+import List from "./components/List";
+import Person from "./components/Person";
+import Product from "./components/Product";
+import ProductInfo from "./components/ProductInfo";
+import ProductList from "./components/ProductList";
+import Props from "./components/Props";
+import UserList from "./components/UserList";
 
 const App = () => {
   return <>
-    <Dynamic />
+    <Person name="somu" age="19" />
+    <Product name="laptop" price="$1200" />
   </>
 }
 
