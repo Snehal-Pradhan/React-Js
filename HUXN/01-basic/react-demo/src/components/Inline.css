@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+h1 {
+    border: 1rem;
+    border-radius: 1%;
+    border-width: 1rem;
+}
