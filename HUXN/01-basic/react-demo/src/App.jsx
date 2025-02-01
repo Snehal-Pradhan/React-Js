@@ -1,18 +1,14 @@
-
-import Dynamic from "./components/Dynamic";
-import Greeting from "./components/Greeting";
-import List from "./components/List";
-import Person from "./components/Person";
-import Product from "./components/Product";
-import ProductInfo from "./components/ProductInfo";
-import ProductList from "./components/ProductList";
-import Props from "./components/Props";
-import UserList from "./components/UserList";
-
+import Card from "./components/Card";
+import Cart from "./components/Cart";
+import Grating from "./components/Grating";
+import Password from "./components/Password";
+import UserStatus from "./components/UserStatus";
+import Weather from "./components/Weather";
 const App = () => {
   return <>
-    <Person name="somu" age="19" />
-    <Product name="laptop" price="$1200" />
+    <Weather temperature={20} />
+    <UserStatus loggedIn={true} isAdmin={false} />
+    <Grating timeOfDay="morning" />
   </>
 }
 
