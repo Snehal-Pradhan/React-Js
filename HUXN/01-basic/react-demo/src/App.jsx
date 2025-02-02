@@ -1,14 +1,12 @@
-import Card from "./components/Card";
-import Cart from "./components/Cart";
-import CSSusage from "./components/CSSusage";
-import Grating from "./components/Grating";
-import Inline from "./components/Inline";
-import Password from "./components/Password";
-import UserStatus from "./components/UserStatus";
-import Weather from "./components/Weather";
+
+import Button from "./components/Button";
+import IconComponent from "./components/IconComponent";;
+import ProfileCard from "./components/ProfileCard";
+import StyledCard from "./components/StyledCard";
+
 const App = () => {
   return <>
-    <CSSusage />
+    <Button />
   </>
 }
 
