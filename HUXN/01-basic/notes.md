@@ -14,3 +14,12 @@ props or properties are the argument passed into react components.
 
 props allows us to pass data from parent component to a child component
 
+conditional rendering  allows us to dynamically display different ui components or content based on specific conditions.
+
+this enables us to create more interactive and responsive design user experienc.
+
+state ->  state is a way to store and manage data which can change over time and affect how the components render
+
+hook -> lets use state in a class less component.
+
+useState hook => is a hook that allows us to track state in a functionl component.

@@ -1,12 +1,11 @@
 
-import Button from "./components/Button";
-import IconComponent from "./components/IconComponent";;
-import ProfileCard from "./components/ProfileCard";
-import StyledCard from "./components/StyledCard";
+import ExampleOne from "./components/ExampleOne";
+import StateCounter from "./components/StateCounter";
+
 
 const App = () => {
   return <>
-    <Button />
+    <ExampleOne />
   </>
 }
 
