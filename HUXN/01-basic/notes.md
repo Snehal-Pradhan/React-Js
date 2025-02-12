@@ -23,3 +23,11 @@ state ->  state is a way to store and manage data which can change over time and
 hook -> lets use state in a class less component.
 
 useState hook => is a hook that allows us to track state in a functionl component.
+
+portal - it is a feature that allows you to render a child component into a DOM node that exists outside the hierarchy of parent component. this can be useful for scenarios like modals , tooltips or drop downs , where you want to break out of the usual parent-child structure and render in a different part of DOM
+
+When React detects a key change, it treats the element as new and fully re-renders it.
+
+onChange is an event handler that runs whenever the input value changes.
+
+state is a dynamic data container that React tracks and updates automatically.
