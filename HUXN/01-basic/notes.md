@@ -31,7 +31,10 @@ When React detects a key change, it treats the element as new and fully re-rende
 onChange is an event handler that runs whenever the input value changes.
 
 state is a dynamic data container that React tracks and updates automatically.
+<<<<<<< HEAD
 
 UseEffect() is a hook which lets us perform side effects in your components.
 
 context API => is a feature that allows us to manage and share state across your component tree without having to pass props down manually at every level. its useful for scenarios where you need to share data or funtions across many components especially when these components are deeply nested.
+=======
+>>>>>>> 13142195fe9a75cbb78ed7323c3a0d966b89242e
