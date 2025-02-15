@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import ComponentOne from "./components/ComponentOne";
 import ComponentTwo from "./components/ComponentTwo";
@@ -12,28 +11,22 @@ import Profile from "./components/Profile";
 import ShoppingList from "./components/ShoppingList";
 import CopyInput from "./components/CopyInput";
 import Switcher from "./components/Switcher";
-<<<<<<< HEAD
 import Effect from "./components/Effect";
 import FetchinEffect from "./components/FetchinEffect";
 import BasicEffect from "./components/BasicEffect";
 import CounterEffect from "./components/CounterEffect";
-=======
->>>>>>> 13142195fe9a75cbb78ed7323c3a0d966b89242e
-
+import ContextTwo from "./components/ContextTwo";
+import UseContext from "./components/UseContext";
+import ContextOne from "./components/ContextOne";
 
 const App = () => {
-  return <>
-<<<<<<< HEAD
-    <BasicEffect />
-    <CounterEffect />
-    <FetchinEffect />
+  return (
+    <>
+      <ContextTwo />
+      <ContextOne />
 
-=======
-    <Switcher />
->>>>>>> 13142195fe9a75cbb78ed7323c3a0d966b89242e
-  </>
-}
+    </>
+  );
+};
 
 export default App;
-
-
