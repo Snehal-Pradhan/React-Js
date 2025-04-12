@@ -1,6 +1,7 @@
 import ComponentA from "./components/ComponentA";
 import { createContext } from "react";
 import ComponentC from "./components/ComponentC";
+import UserProfile from "./components/UserProfile";
 
 export const Data = createContext(null)
 export const Data1 = createContext(null)
@@ -11,11 +12,7 @@ function App() {
 
   return (
     <>
-      <Data.Provider value={name}>
-        <Data1.Provider value={age}>
-          <ComponentA />
-        </Data1.Provider>
-      </Data.Provider>
+      <UserProfile />
 
     </>
   )
